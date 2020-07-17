@@ -104,9 +104,11 @@ header {
 /* navigation */
 nav {
     font-family: 'Montserrat', sans-serif;
+    color: #2F2E2E;
     float: right;
     margin-top: 85px;
     margin-right: 20px;
+
 }
 
 nav ul {}
@@ -117,13 +119,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #2F2E2E;
     background-color: none;
     padding: 10px 8px;
 }
 
+/* class=link created for index.html page */
+.link {
+    color: white;
+}
+
+
 nav ul li a:hover {
     text-decoration: highlight;
+}
+
+nav ul li a.currentpage {
+    text-decoration: underline;
 }
 
 /* links */
@@ -131,6 +143,11 @@ nav ul li a:hover {
 a {
     color: #2F2E2E;
 
+}
+
+/* class=link created for index.html page */
+.link {
+    color: white;
 }
 
 main {
@@ -169,6 +186,16 @@ footer {
     min-height: 850px;
     margin-bottom: 50px;
     background-image: url(../images/image36.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* second hero image for further pages */
+.hero2 {
+    min-height: 200px;
+    margin-bottom: 100px;
+    background-color: #EEEEEE;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
