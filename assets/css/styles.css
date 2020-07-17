@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald:wght@400;600&display=swap');
+
+body {
+    background-color: #ffffff;
+    color: #646464;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+}
+
+h1 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    display: inline-block;
+    font-size: 40px;
+    color: ghostwhite;
+
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #646464;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 2px;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #646464;
+}
+
+p.footertext {
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #898989;
+    display: inline;
+}
+
+/* anchor styles */
+a {
+    color: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-color: black;
+}
+
+a: visited {
+    color: none;
+}
+
+a:active {
+    color: black;
+}
+
+/* main containers */
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.wrapper2 {
+    width: 1150px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+header {
+    background-color: white;
+    height: 0px;
+    padding: 0px;
+}
+
+/* navigation */
+nav {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-top: 85px;
+    margin-right: 20px;
+}
+
+nav ul {}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    background-color: none;
+    padding: 10px 8px;
+}
+
+nav ul li a:hover {
+    text-decoration: highlight;
+}
+
+/* links */
+
+a {
+    color: #2F2E2E;
+}
+
+main {
+    background-color: white;
+    padding: 10px 0px;
+    overflow: auto;
+}
+
+/* text position */
+.text-container {
+    width: 70%;
+    text-align: center;
+}
+
+/* second text container to align text next to image */
+.text-container2 {
+    width: 80%;
+    text-align: center;
+    padding-left: 50px;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer {
+    background-color: #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    padding-right: 100px;
+    margin-top: 300px;
+
+}
+
+/* images */
+.hero {
+    min-height: 850px;
+    margin-bottom: 50px;
+    background-image: url(../images/image36.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 3 side by side image display */
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 30px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* column and row made to align two images  */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.robinimg {
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.lastimg {
+    float: left;
+    display: block;
+    margin-top: 80px;
+    width: 55%;
+    margin-right: 40px;
+}
+
+/* column 2 created to align images */
+.column2 {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
